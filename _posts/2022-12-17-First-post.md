@@ -34,12 +34,18 @@ print(final_result)
 
 # Math
 In this question, I have refer to the Monte Carlo integration on Wikipedia. We have the general approximation equation:
-$$ V \langle f \rangle =  V\frac{1}{N}\sum_{i=1}^{N}f(x_i) $$
-$$ V  =  \int_{\Omega }^{} dx $$
+$$
+V \langle f \rangle =  V\frac{1}{N}\sum_{i=1}^{N}f(x_i) \\
+V  =  \int_{\Omega }^{} dx
+$$
+
+
 The $\Omega$ in this question, is the uniform distribution variable from 0 to 1.
 So we have $V = \int_{0}^{1} dx = 1$ The above equation  will be 
-So we have $V = \int_{0}^{1} dx = 1$ The above equation  will be 
-$$ V \langle f \rangle =  \frac{1}{N}\sum_{i=1}^{N}f(x_i) $$
+$$
+V \langle f \rangle =  \frac{1}{N}\sum_{i=1}^{N}f(x_i)
+$$
+
 
 
 # Prompts
@@ -47,5 +53,4 @@ $$ V \langle f \rangle =  \frac{1}{N}\sum_{i=1}^{N}f(x_i) $$
 > Example line for prompt.
 {: .prompt-info }
 
-# Syntax
-`/path/to/a/file.extend`{: .filepath}
+
