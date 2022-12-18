@@ -5,8 +5,6 @@ categories: [Blog]
 tags: [misc]     # TAG names should always be lowercase
 math: true
 ---
-
-
 # Code
 
 Code block testingsssss
@@ -48,6 +46,11 @@ $$
 
 Testing v2
 
+
+## Sub title test
+
+here is some math
+
 $$
 \begin{align*}
 y = y(x,t) &= A e^{i\theta} \\
@@ -59,15 +62,20 @@ y = y(x,t) &= A e^{i\theta} \\
 \end{align*}
 $$
 
+### sub sub
 
+- abc
+- def
+- efg
 
-
-
-
+1. abc
+2. eee
+3. ggg
+4. kkk
 
 # Prompts
-
 > Example line for prompt.
 {: .prompt-info }
+
 
 
